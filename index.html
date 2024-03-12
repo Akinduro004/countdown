@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>countdown timer</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="countdown.css">
+</head>
+<body>
+<div class="container page">
+    <div class="row">
+        <div class="col-sm-12">
+            <div>
+               <div> <label>Enter countdown end-date</label></div>
+              <input type="datetime-local" id="end-date" name="end-date" >
+                <button type="submit" onclick="trial()" >START</button>
+            </div>
+        </div>
+    </div>
+    <div class="row countdown">
+        
+        <div class="col-sm-2 ">
+            DAYS:
+            <div class="countdown-box" id="day">
+       
+            </div>
+          </div>
+          <div class="col-sm-2 ">
+            HOURS: 
+            <div class="countdown-box" id="hour" >
+            
+            </div>
+          </div>
+          <div class="col-sm-2 ">
+            MINS:
+            <div class="countdown-box"  id="min" >
+              
+            </div>
+          </div>
+          <div class="col-sm-2 ">
+            SECS:
+            <div class="countdown-box" id="sec">
+          
+            </div>
+        </div>
+      
+          </div>
+         
+
+</div>
+   
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="countdown.js">
+
+  </script>
+</body>
+</html>

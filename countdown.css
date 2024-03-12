@@ -1,0 +1,51 @@
+body{
+    font-weight: bolder;
+}
+.page{
+background-color: black;
+padding-top: 50px;
+padding-bottom: 50px;
+color: white;
+margin-top: 10%;
+border-radius: 20px;
+text-align: center;
+}
+button{
+    background-color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+button:hover{
+    cursor: pointer;
+}
+
+.countdown{
+    margin-top: 70px;
+}
+.countdown-box{
+    background-color: white;
+    color: black;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 0 2px 23px white;
+    padding-bottom: 40px;
+    color: red;
+    font-size: 25px;
+}
+span{
+    color: red;
+    font-size: 25px;
+}
+@media (max-width:575px){
+    .countdown-box{
+        margin-top: 20px;
+    
+}
+}
+@media (min-width:575px){
+    .countdown{
+        margin-left: 19%;
+}
+}
